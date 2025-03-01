@@ -50,6 +50,9 @@ export class LoadingScene extends Phaser.Scene {
     private assetsLoad(){
 		this.load.image('Img_Exp1', 'assets/Exp.png');
 		this.load.image('Img_Atk1', 'assets/Atk.png');
+
+		this.load.image("Img_SpinUP", 'assets/Spin_UP.png');
+		this.load.image("Img_SpinDO", 'assets/Spin_DO.png');
     }
 
     private animSetting(pre:boolean){
